@@ -1,0 +1,245 @@
+/* CARUSEL */
+.imgCarousel {
+  height: 26rem;
+  object-fit: cover;
+}
+
+/* Header */
+header {
+  border-bottom: 4px black solid;
+  background-color: white;
+}
+header .logo {
+  width: 5rem;
+}
+header .fuentes {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+header .navbar-toggler {
+  background-color: #cacaca;
+  border: 2px black solid;
+}
+
+nav li {
+  padding-inline: 1rem;
+}
+
+/* BODY */
+body {
+  background-color: #FFF7ED;
+}
+body h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  color: black;
+}
+body .indexH1 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+body .textoQS {
+  margin: auto;
+  width: 45%;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+body .contacto {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #666666;
+  color: white;
+  margin-bottom: 2.5rem;
+  text-shadow: 2px 2px 4px black;
+}
+body .contacto2 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #666666;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+body .textoInicio {
+  width: 95%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+}
+
+/* FAQ */
+.colorFaq {
+  background-color: #666666;
+  color: white;
+  padding-bottom: 1rem;
+  text-shadow: 2px 2px 4px black;
+}
+
+.faq {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.preguntas {
+  font-size: 1.5rem;
+}
+
+.respuesta {
+  font-size: 1.2rem;
+}
+
+.redesFaq {
+  text-decoration: none;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Principal flex */
+.contenedor {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.columna {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.columna img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+  margin: auto;
+}
+.columna h2 {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.columna p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .columna {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+/* FORM */
+#textomain {
+  padding-top: 10px;
+  background-color: #666666;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+#textomain2 {
+  padding-top: 10px;
+  background-color: #666666;
+  color: white;
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+#alinear {
+  align-items: center;
+  text-align: center;
+}
+
+.formularioTitulo {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px black;
+}
+
+.caja {
+  width: 65%;
+}
+
+/* BOTONES */
+.colorBtn {
+  background-color: gray;
+  color: white;
+  border: 2px solid black;
+}
+.colorBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.colorBtn2 {
+  background-color: black;
+  color: white;
+  width: 10rem;
+}
+.colorBtn2:hover {
+  background-color: white;
+  color: black;
+}
+
+/* BARRA DE SCROLL*/
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #cacaca;
+}
+
+/* CARDS */
+.card {
+  border: 1px black solid;
+  box-shadow: 3px 4px black;
+  width: 90%;
+  margin: auto;
+}
+
+.cuadroForm {
+  border: 2px black solid;
+  background-color: whitesmoke;
+}
+
+/* MAPS */
+.googleMaps {
+  width: 100%;
+  height: 15rem;
+}
+
+.letraArial {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=estilo.css.map */

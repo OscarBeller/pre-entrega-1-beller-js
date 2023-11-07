@@ -1,0 +1,26 @@
+/* Header */
+header {
+    border-bottom: 4px black solid;
+    background-color: white;
+  
+    .logo {
+      width: 5rem;
+    }
+  
+    .fuentes {
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      text-decoration: solid;
+    }
+  
+    .navbar-toggler {
+      background-color: #cacaca;
+      border: 2px black solid;
+    }
+  }
+  
+  nav {
+    li {
+      padding-inline: 1rem;
+    }
+  }

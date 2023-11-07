@@ -1,0 +1,8 @@
+@mixin fuente {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.letraArial {
+    @include fuente;
+}
